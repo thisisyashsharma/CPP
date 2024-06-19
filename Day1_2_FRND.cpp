@@ -1,6 +1,13 @@
+/*
+
+
+
+Friend - CLass & Function
+*/
+
+
 #include <iostream>
 using namespace std;
-//Friend - CLass & Function
 
 class A{
 private:

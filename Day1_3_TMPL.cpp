@@ -1,4 +1,12 @@
-//Making Template class generic so we can pass the different type of data type , we are trying to not make the function strong binding with specific data type.
+/*
+TEMPLATE
+
+
+
+Making Template class generic so we can pass the different type of data type , we are trying to not make the function strong binding with specific data type.
+*/
+
+
 #include <iostream>
 using namespace std;
 

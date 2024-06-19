@@ -1,7 +1,3 @@
-#include <iostream>
-using namespace std;
-
-
 /*
 POLYMORPHISM
 
@@ -16,10 +12,14 @@ Compiled Time - early binding
 Runtime  - late binding
     - Function Overriding
          1.
+
+Polymorphism - Compiled Time - Operator Overloading
 */
 
 
-//Polymorphism - Compiled Time - Operator Overloading
+#include <iostream>
+using namespace std;
+
 class Base_CompiledTime{
 public:
    int x;
