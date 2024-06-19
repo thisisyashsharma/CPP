@@ -19,21 +19,10 @@ public:
     void setName(string name){
         this->name = name;
     }
-
-
-
-
-
 };
 
 int main(){
-
     Student object("Guddu");
-
     string x = object.getName();
-
     cout << x;
-
-
-    return 0;
 }
