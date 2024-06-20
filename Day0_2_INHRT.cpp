@@ -1,5 +1,7 @@
 /*
 INHERITANCE
+  Base class 
+  Child class
 
 */
 #include <iostream>

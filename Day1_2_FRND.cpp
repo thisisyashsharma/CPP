@@ -1,5 +1,5 @@
 /*
-
+FRIEND CLASS & FUNCTION
 
 
 Friend - CLass & Function

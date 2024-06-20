@@ -8,6 +8,7 @@ Making Template class generic so we can pass the different type of data type , w
 
 
 #include <iostream>
+#include <typeinfo>
 using namespace std;
 
 
@@ -28,6 +29,7 @@ public:
 int main(){
     Number<float> n;
     n.add( 1.0 , 3.0);
-
+    
+    cout << typeid(n.add(1.0,3.0)).name() << endl;
     //How to make it different data type in one function 
 }

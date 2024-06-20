@@ -3,13 +3,13 @@ POLYMORPHISM
 
 Topic POLY - "many" , MORPHISM - "forms"
 
-Compiled Time - early binding
+Compiled Time -                                                 EARLY BINDING 
    - Overloading 
          1.Function Overloading
          2.Operator Overloading
 
 
-Runtime  - late binding
+Runtime  -                                                       LATE BINDING 
     - Function Overriding
          1.
 
