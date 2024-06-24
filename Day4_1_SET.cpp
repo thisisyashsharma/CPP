@@ -1,18 +1,25 @@
 #include <iostream>
 #include <set>
+#include <algorithm>
 using namespace std;
-
 /*
-    SET
+   SET 
+   - ordered set
+   - unordered set
 
-    - donesn't consist repeated elematiokn
+
 
 */
 
 
-int main(){
-    cout << "he";
-    return 0 ;
-}
 
-//SET
+
+
+int main(){
+    set<int> S1 = {2,5,7,43,65,23};
+
+    for(int i : S1){
+        cout << i << " ";
+    }
+
+}
