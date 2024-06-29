@@ -10,37 +10,37 @@ void display(int a[][5], int r, int c ){
         }
         cout << endl;       
     }
-    cout << endl;
+    cout << "-------------------------------------" << endl;
     
 }
 void spiralMatrix(int a[][5], int r, int c){
-     int topRow = 0 ,bottomRow = r-1, leftCol = 0 , rightCol = c-1;
-     
-     while(leftCol <= rightCol && topRow <= bottomRow){
-            for(int i=leftCol ; i<rightCol ; i++){
-                cout << a[topRow][i]  << " ";
-            }
-            topRow++;
+     int tR= 0 , bR = r-1, lC = 0, rC = c-1;
 
-            for(int j=topRow ; j<bottomRow ; j++){
-                cout << a[j][rightCol] << " ";
+        while(tR <= bR && lC <= rC ){
+            for(int i=lC ; i<rC ; i++)
+                cout << a[tR][i] << " " ;
+            tR++;
 
-            }
-            rightCol--;        
-           
-            for(int k=rightCol ; k<leftCol ; k++){
-                cout <<a[bottomRow][k] << " ";
-            }
-            bottomRow++;
+            for(int i=tR ; i<=bR ; i++)
+                cout << a[i][rC] << " " ;
+            rC--;
 
-            for(int l=bottomRow ; l<topRow ; l++){
-                 cout << a[l][leftCol] << " ";
-            }
-            leftCol++;
-     }
+            for(int i=rC ; i>=lC ; i--)
+                cout << a[bR][i] << " " ;
+            bR--;
+
+            for(int i=bR ; i>=tR ;i--)
+                cout << a[i][lC] << " " ;
+            lC++;
+
+            
 
 
+        }
 }
+
+
+
 
 
 
